@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:pacco_app/screens/login.dart';
 
@@ -10,7 +11,19 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        cursorColor: Colors.white,
+        cupertinoOverrideTheme: CupertinoThemeData(
+          primaryColor: Colors.white
+        ),
+        primarySwatch: Colors.brown,
+        fontFamily: 'Poppins',
+        textSelectionColor: Colors.white,
+        textSelectionHandleColor: Colors.white,
+        primaryColor: Colors.white,
+        primaryColorLight: Colors.white,
+        unselectedWidgetColor: Colors.white,
+        accentColor: Colors.white,
+        
       ),
       home: new LoginPage(),
     );

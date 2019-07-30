@@ -22,7 +22,7 @@ dependencies:
   firebase_core: ^0.4.0  # add dependency for Firebase Core
   firebase_auth: ^0.11.1
   firebase_analytics: ^1.0.4  # add dependency for Google Analytics for Firebase
-
+  animator: ^0.1.4
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -41,6 +41,9 @@ flutter:
   assets:
     - assets/
     - assets/Pacco Screens iPhone 6 NEU NEU.png
+    - assets/images/runderkreisfürnils2.o.png
+    - assets/images/background.png
+    
 
   fonts:
     - family: Poppins

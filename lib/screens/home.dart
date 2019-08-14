@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pacco_app/ownWidgets/circle.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 import 'package:pacco_app/ownWidgets/NavigationBar.dart';
-
 
 class Home extends StatefulWidget {
   @override
@@ -59,34 +57,33 @@ class _HomeState extends State<Home> {
             top: 420,
             child: Padding(
               padding: const EdgeInsets.only(left: 30, right: 30),
-              child: ButtonBar(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  FlatButton(
-                    padding: EdgeInsets.all(1),
-
-                    child: Text('M'),
-                  ),
-                  FlatButton(
-                    child: Text('D'),
-                  ),
-                  FlatButton(
-                    child: Text('M'),
-                  ),
-                  FlatButton(
-                    child: Text('D'),
-                  ),
-                  FlatButton(
-                    child: Text('F'),
-                  ),
-                  FlatButton(
-                    child: Text('S'),
-                  ),
-                  FlatButton(
-                    child: Text('S'),
-                  ),
-                ],
-              ),
+              // child: ButtonBar(
+              //   mainAxisSize: MainAxisSize.min,
+              //   children: <Widget>[
+              //     FlatButton(
+              //       padding: EdgeInsets.all(1),
+              //       child: Text('M'),
+              //     ),
+              //     FlatButton(
+              //       child: Text('D'),
+              //     ),
+              //     FlatButton(
+              //       child: Text('M'),
+              //     ),
+              //     FlatButton(
+              //       child: Text('D'),
+              //     ),
+              //     FlatButton(
+              //       child: Text('F'),
+              //     ),
+              //     FlatButton(
+              //       child: Text('S'),
+              //     ),
+              //     FlatButton(
+              //       child: Text('S'),
+              //     ),
+              //   ],
+              // ),
             ),
           ),
 
@@ -97,7 +94,6 @@ class _HomeState extends State<Home> {
                 color: Colors.black26,
                 onPressed: () {
                   _incrementCounter();
-                  
                 }),
           ),
 
